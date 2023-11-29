@@ -1,0 +1,107 @@
+@media screen and (max-width: 768px){
+
+    header{
+        flex-direction: column;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    h2{
+        font-size: 38px;
+    }
+
+    img{
+        display: none;
+    }
+
+    ul{
+        text-align: center;
+       
+    }
+    .vant{
+        margin-left: 2%;
+    }
+    
+    .vant h2{
+        margin-left: 1px;
+    }
+
+    .desv {
+        margin-left:100%;
+    }
+    
+    .desv h2{
+        margin-left: -410px;
+        margin-top: 350px;
+    }
+
+    .desv p{
+        margin-left: -340px;
+    }
+    
+    .nesc {
+        margin-left: -20px;
+        margin-top: 40px;
+    }
+
+    #exp{
+        margin-left: -10px;
+        margin-top: 50px;
+    }
+
+    .causo{
+        margin-left: -5px;
+        margin-top: 25px;
+    
+    }
+
+    .yvideo{
+        margin-left: 7%;
+        margin-top: 10px;  
+        width: 300px;
+        height: 200px;
+        
+    }
+
+    #saibamais{
+        margin-left: -30px;
+    }
+
+    .oportu {
+        margin-left: -10px;
+        margin-top: 75px;
+    }
+
+   .desintro h2{
+    white-space: nowrap;
+    margin-left: -40px;
+    font-size: 22px;
+    text-align: center;
+    margin-top: -5px;
+   }
+
+   .mat h2{
+    white-space: nowrap;
+    font-size: 22px;
+   }
+
+   .mat3{
+    margin-left: 20px;
+    margin-top: 20px;
+   }
+
+   .mat4{
+    margin-left: -130px;
+   }
+   
+   .mat4 h2{
+    margin-left: 120px;
+   }
+
+   .aplic h2{
+    white-space: nowrap;
+    font-size: 33px;
+   }
+}

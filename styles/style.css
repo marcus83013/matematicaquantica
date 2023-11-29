@@ -1,0 +1,329 @@
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 8px;
+}
+
+a{
+    color: white;
+    font-size: 12px;
+}
+
+a:hover{
+    color: rgb(132, 14, 201);
+    transition: 0.3s all;
+}
+
+
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+}
+
+span{
+    color: rgb(132, 14, 201);
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+img{
+    width: 580px;
+}
+
+
+button{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(132, 14, 201);
+    border-radius: 10px;
+    border: none;
+    width: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+#saibamais{
+    text-align: center;
+}
+
+article{
+    padding-left: 130px;
+}
+
+.sobre{
+   margin-bottom: 60px;
+
+}
+
+.sobre h2{
+    font-size: 50px;
+}
+
+.sobre p{
+    font-size: 12px;
+}
+
+.vant{
+    display:inline-flexbox;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+
+.vant p{
+    text-align: center;
+    font-size:12px;
+}
+
+.vant h2{
+    margin-left: 100px;
+}
+
+.desv{
+    text-align: center;
+    margin-left: 600px;
+    margin-top: -290px;
+}
+
+.desv p{
+ font-size: 12px;
+ margin-left: 10px;
+}
+
+.desv h2{
+    margin-left: 12px;
+}
+
+#imagem2{
+    width: 470px;
+    height: 350px;
+    display: flex;
+    margin-left: -500px;
+    border-radius: 10%;
+    margin-top: 50px;
+}
+
+.nesc{
+    margin-left: 650px;
+    margin-top: -250px;
+    text-align: center;
+}
+
+.nesc h2{
+    font-size: 25px;
+}
+
+.nesc li{
+    font-size: 15px;
+    display: list-item;
+}
+
+.cursos{
+    margin-top: 100px;
+    justify-content: right;
+}
+
+.cursos h2{
+    font-size: 20px;
+    text-align: left;
+}
+
+.cursos p{
+    font-size: 15px;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#linkcurso{
+display: flex;
+margin-top: 0px;
+}
+
+#livros{
+    margin-left:200px;
+    margin-top: -110px;
+}
+
+#linklivros{
+    display: flex;
+    margin-left:200px;
+    margin-top: 0px;
+}
+
+#exp{
+    font-size: 12px;
+    margin-top: -200px;
+    margin-left: 650px;
+    text-align: center;
+    font-family: poppinsmedium;
+    font-weight: bold;
+}
+
+.aplic p{
+    margin-top: 0px;
+}
+
+.causo{
+    margin-left: 800px;
+    margin-top: -550px;
+
+}
+
+.causo h2{
+    font-size: 20px;
+}
+
+.causo p{
+    font-size:12px;
+}
+
+
+.yvideo{
+    margin-top: 420px;
+    margin-left: -650px;
+    border-radius: 3%;
+}
+
+
+.desintro{
+    margin: 70px;
+}
+
+.desintro h2{
+  font-size: 30px;
+}
+
+.datuais{
+    margin: 70px;
+    font-size: 10px;
+    margin-top: -40px;
+}
+.datuais h2{
+    font-size: 22px;
+}
+
+.datuais p{
+    font-size: 12px;
+}
+
+.oportu {
+    margin-left: 700px;
+    margin-top: -520px;
+    
+}
+
+.oportu h2{
+    font-size: 25px;
+    text-align: center;
+}
+
+.oportu p{
+    font-size: 12px;
+    text-align: center;
+    
+}
+
+#opp{
+    color: blueviolet;
+    font-size: 20px;;
+    font-family: poppinsmedium;
+}
+
+.up p{
+    font-size: 20px;
+    color:blueviolet;
+}
+.up a{
+    font-size: 20px;
+}
+.up {
+    margin-top: 40px;
+}
+
+
+
+.prof{
+    margin-left: -1400px;
+    margin-top: -80px;
+    
+}
+
+.prof p{
+    margin-left: 780px;
+    text-align: unset;
+}
+
+#h2op {
+    margin-left: -280px;
+}
+
+.mat3 {
+    margin-top: -800px;
+    margin-left: 600px;
+}
+
+.mat4{
+    margin-left: 460px;
+    margin-top: 30px;
+   
+}
+
+.mat4 h2{
+    font-size: 20px;
+    text-align: center;
+}
+
+#linkadd{
+    margin-left: 150px;
+    margin-top: -5px;
+    font-size: 15px;
+    display: flex;
+
+}
+
+.mat4 h1{
+    margin-left: 150px;
+    padding-bottom: -20px;
+}
+
+
